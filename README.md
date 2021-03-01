@@ -1,6 +1,6 @@
 Road map:
 - [ ] Backend
-  - [ ] Decide backend language
+  - [x] Decide backend language [nodejs + mysql]
   - [ ] Decide database struture & tables
   - [ ] Create database
   - [ ] Decide routes
@@ -35,4 +35,25 @@ Ideas :
   - [ ] Scheduling online conf
   - [ ] Save filters
   - [ ] updates/notification on new profiles
+  - [ ] Add photos for easy matching
+  - [ ] Link photographer for professional photography [additional charges applied]
+
+Premium features:
+
+  - [ ] User's Last seen
+  - [ ] Someone saw your profile 
+  - [ ] Thumbs, compressed and actual
+  - [ ] Chat initiate to any user
   - [ ] 
+  - [ ] 
+  - [ ] 
+  - [ ] 
+  - [ ] 
+
+Furture ideas:
+  - [ ] Horoscope auto generate
+  - [ ] Horoscope auto matching
+  - [ ] Preference matching
+
+Important links :
+http://mysourashtramatrimony.com/scripts/10poruthampage.php
