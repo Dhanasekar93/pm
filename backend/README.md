@@ -1,0 +1,15 @@
+- [ ] Backend
+  - [x] Decide backend language [nodejs + mysql]
+  - [x] Decide database struture & tables
+  - [ ] Create database
+  - [ ] Decide routes
+  - [ ] Decide SQL queries
+  - [ ] Create SQL queries
+  - [ ] Create routes and rest api
+  - [ ] Create CRUD routes
+  - [ ] Create file upload route
+  - [ ] Create auth/login route
+  - [ ] Create register route
+  - [ ] Create add profile route
+  - [ ] Create shortlist route
+  - [ ] Create chat/message system

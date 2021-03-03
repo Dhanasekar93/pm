@@ -1,7 +1,7 @@
 Road map:
 - [ ] Backend
   - [x] Decide backend language [nodejs + mysql]
-  - [ ] Decide database struture & tables
+  - [x] Decide database struture & tables
   - [ ] Create database
   - [ ] Decide routes
   - [ ] Decide SQL queries
