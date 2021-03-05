@@ -58,6 +58,7 @@ CREATE TABLE profile_viewed_history (
 	history_id int(11) not null auto_increment,
 	profile_id int(11) not null,
 	visitor_id int(11) not null,
+	is_chatted enum('0','1') not null default '0',
 	is_shortlist enum('0','1') not null default '0',
 	last_visit_time timestamp null on update current_timestamp,
 	primary key (history_id),
