@@ -55,12 +55,12 @@ CREATE TABLE user_profiles (
 	) engine=innodb auto_increment=1000;
 
 CREATE TABLE profile_viewed_history (
-	id int(11) not null auto_increment,
+	history_id int(11) not null auto_increment,
 	profile_id int(11) not null,
 	visitor_id int(11) not null,
 	is_shortlist enum('0','1') not null default '0',
 	last_visit_time timestamp null on update current_timestamp,
-	primary key (id),
+	primary key (history_id),
 	key profile_id (profile_id),
 	key visitor_id (visitor_id)
 	) engine=innodb;
@@ -93,9 +93,10 @@ CREATE TABLE profile_transactions (
 	) engine=innodb;
 
 CREATE TABLE profile_chat_history (
-	chat_id int not null,
+	chat_id int not null auto_increment,
 	from_id int not null,
 	to_id int not null,
+	history_id int not null,
 	is_blocked_by int not null,
 	message_content text not null,
 	message_is_deleted enum('0','1') default '0',
